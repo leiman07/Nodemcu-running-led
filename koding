@@ -1,0 +1,149 @@
+/*
+Youtube.com/LeimanGoVlog
+Tokopedia.com/tridipiproject
+saweria.co/leimangovlog
+instagram/tridipi.project
+github.com/leiman07
+leimanilmu.blogspot.com
+*/
+//Nodemcu running led 
+
+void setup() {
+ pinMode(D0, OUTPUT);
+ pinMode(D1, OUTPUT);
+ pinMode(D2, OUTPUT);
+ pinMode(D3, OUTPUT);
+ pinMode(D4, OUTPUT);
+ pinMode(D5, OUTPUT);
+}
+
+void loop() {
+  //--------------------------------  MODE 1  ---------------
+  digitalWrite (D0, HIGH); 
+  digitalWrite (D1, LOW); 
+  digitalWrite (D2, LOW); 
+  digitalWrite (D3, LOW); 
+  digitalWrite (D4, LOW);
+  digitalWrite (D5, LOW);
+  delay(300);
+   
+  digitalWrite (D0, LOW); 
+  digitalWrite (D1, HIGH); 
+  digitalWrite (D2, LOW); 
+  digitalWrite (D3, LOW); 
+  digitalWrite (D4, LOW);
+  digitalWrite (D5, LOW);
+  delay(300);
+
+  digitalWrite (D0, LOW); 
+  digitalWrite (D1, LOW); 
+  digitalWrite (D2, HIGH); 
+  digitalWrite (D3, LOW); 
+  digitalWrite (D4, LOW);
+  digitalWrite (D5, LOW);
+  delay(300);
+
+  digitalWrite (D0, LOW); 
+  digitalWrite (D1, LOW); 
+  digitalWrite (D2, HIGH); 
+  digitalWrite (D3, LOW); 
+  digitalWrite (D4, LOW);
+  digitalWrite (D5, LOW);
+  delay(300);
+
+  digitalWrite (D0, LOW); 
+  digitalWrite (D1, LOW); 
+  digitalWrite (D2, LOW); 
+  digitalWrite (D3, HIGH); 
+  digitalWrite (D4, LOW);
+  digitalWrite (D5, LOW);
+  delay(300);
+
+  digitalWrite (D0, LOW); 
+  digitalWrite (D1, LOW); 
+  digitalWrite (D2, LOW); 
+  digitalWrite (D3, LOW); 
+  digitalWrite (D4, HIGH);
+  digitalWrite (D5, LOW);
+  delay(300);
+
+  digitalWrite (D0, LOW); 
+  digitalWrite (D1, LOW); 
+  digitalWrite (D2, LOW); 
+  digitalWrite (D3, LOW); 
+  digitalWrite (D4, LOW);
+  digitalWrite (D5, HIGH);
+  delay(300);
+
+  //--------------------------------  MODE 1  ---------------
+
+  //--------------------------------  MODE 2  ---------------
+  digitalWrite (D0, LOW); 
+  digitalWrite (D1, LOW); 
+  digitalWrite (D2, LOW); 
+  digitalWrite (D3, LOW); 
+  digitalWrite (D4, LOW);
+  digitalWrite (D5, LOW);
+  delay(300);
+
+  digitalWrite (D0, HIGH); 
+  digitalWrite (D1, HIGH); 
+  digitalWrite (D2, HIGH); 
+  digitalWrite (D3, HIGH); 
+  digitalWrite (D4, HIGH);
+  digitalWrite (D5, HIGH);
+  delay(300);
+
+  digitalWrite (D0, LOW); 
+  digitalWrite (D1, LOW); 
+  digitalWrite (D2, LOW); 
+  digitalWrite (D3, LOW); 
+  digitalWrite (D4, LOW);
+  digitalWrite (D5, LOW);
+  delay(300);
+
+  digitalWrite (D0, HIGH); 
+  digitalWrite (D1, HIGH); 
+  digitalWrite (D2, HIGH); 
+  digitalWrite (D3, HIGH); 
+  digitalWrite (D4, HIGH);
+  digitalWrite (D5, HIGH);
+  delay(300);
+
+  digitalWrite (D0, LOW); 
+  digitalWrite (D1, LOW); 
+  digitalWrite (D2, LOW); 
+  digitalWrite (D3, LOW); 
+  digitalWrite (D4, LOW);
+  digitalWrite (D5, LOW);
+  delay(100);
+
+  digitalWrite (D0, HIGH); 
+  digitalWrite (D1, HIGH); 
+  digitalWrite (D2, HIGH); 
+  digitalWrite (D3, HIGH); 
+  digitalWrite (D4, HIGH);
+  digitalWrite (D5, HIGH);
+  delay(100);
+
+  digitalWrite (D0, LOW); 
+  digitalWrite (D1, LOW); 
+  digitalWrite (D2, LOW); 
+  digitalWrite (D3, LOW); 
+  digitalWrite (D4, LOW);
+  digitalWrite (D5, LOW);
+  delay(100);
+
+  digitalWrite (D0, HIGH); 
+  digitalWrite (D1, HIGH); 
+  digitalWrite (D2, HIGH); 
+  digitalWrite (D3, HIGH); 
+  digitalWrite (D4, HIGH);
+  digitalWrite (D5, HIGH);
+  delay(100);
+  //--------------------------------  MODE 2  ---------------
+}
+
+//PROJECT : Program Penggaris digital dengan sensor Ultrasonik dan LCD OLED 128x64
+//DIBUAT  : TRIDIPI.PROJECT
+//TANGGAL : 07/12/2021
